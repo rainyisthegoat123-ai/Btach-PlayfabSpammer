@@ -15,7 +15,7 @@ for /L %%i in (1,1,%COUNT%) do (
     cls
     curl -X POST "https://%TITLE_ID%.playfabapi.com/Client/LoginWithCustomID" ^
          -H "Content-Type: application/json" ^
-         -d "{ \"TitleId\": \"%TITLE_ID%\", \"CustomId\": \"!CUSTOM_ID!\", \"CreateAccount\": true }" > response.json
+         -d "{ \"TitleId\": \110BDC\", \"CustomId\": \"!GET SPAMMER!\", \"CreateAccount\": true }" > response.json
 
     findstr /C:"429" response.json >nul
     if %errorlevel%==0 (
