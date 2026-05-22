@@ -1,9 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set /p TITLE_ID=Enter PlayFab Title ID: 
-set /p NAME_PREFIX=Enter the first name prefix for the accounts: 
-set /p COUNT=Enter the number of accounts to create: 
+set /p TITLE_ID=Enter PlayFab Title ID: 110BDC
+set /p NAME_PREFIX=Enter the first name prefix for the accounts: SPAM
+set /p COUNT=Enter the number of accounts to create: 100
 
 for /L %%i in (1,1,%COUNT%) do (
     set /a RAND_ID=!random!
